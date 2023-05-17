@@ -253,6 +253,11 @@ img {
   border-radius: 50%;
   
 }
+dashboards {
+  width: 350px;
+  height: 350px;
+  
+}
 
 .circle{
   margin-right: 5px;
@@ -294,7 +299,7 @@ img {
 .sidebar-navigation .social-icons {
   position: absolute;
   width: 100%;  
-  bottom: 10px;
+  bottom: 50px;
   padding: 0;
   margin: 0;
   text-align: center;
@@ -552,13 +557,14 @@ img {
 
 #featured .item .image {
   position: relative;
-  margin-left: 60px;
+  margin-left: 10px;
 }
 
 #featured .item .image img {
   width: 100%;
   overflow: hidden;
 }
+
 
 #featured .item .image .featured-button a {
   font-size: 13px;
@@ -593,8 +599,9 @@ img {
 }
 
 #featured .item .text-content h4 {
-  margin-top: 0px;
-  margin-bottom: 5px;
+  /* margin-top: 0px;
+  margin-bottom: 5px; */
+  text-align: center;
   font-size: 21px;
   font-weight: 600;
   color: #232323;
@@ -603,11 +610,12 @@ img {
 
 #featured .item .text-content span {
   display: inline-block;
+  text-align: center;
   font-size: 15px;
   font-weight: 600;
   color: #7a7a7a;
   letter-spacing: 0.5px;
-  margin-bottom: 12.5px;
+  /* margin-bottom: 12.5px; */
 }
 
 
@@ -762,7 +770,7 @@ img {
   display: inline-block;
   text-align: center;
   width: 25%;
-  float: left;
+  float: none;
   margin: 0;
   padding: 0;
 }
@@ -814,15 +822,15 @@ img {
 #blog .tabgroup ul li {
   display: inline-block;
   text-align: left;
-  margin-bottom: 10px;
-  padding-bottom: 20px;
+  margin-bottom: 5px;
+  padding-bottom: 10px;
   border-bottom: 1px solid #ddd;
 }
 
 #blog .tabgroup ul li:last-child {
   border-bottom: none;
   margin-bottom: 0px;
-  padding-bottom: 10px;
+  padding-bottom: 0px;
 }
 
 #blog .tabgroup ul li img {
@@ -836,7 +844,7 @@ img {
 }
 
 #blog .item .text-content h4 {
-  padding-top: 7.5px;
+  padding-top: px;
   margin-top: 0px;
   margin-bottom: 5px;
   font-size: 21px;
@@ -880,7 +888,7 @@ img {
   display: inline-block;
   text-align: center;
   width: 25%;
-  float: left;
+  float: none;
   margin: 0;
   padding: 0;
 }
@@ -977,6 +985,125 @@ img {
 }
 
 
+* email Style */
+
+#email{
+  padding-left: 60px;
+  padding-right: 60px;
+  padding-bottom: 80px;
+}
+
+#email .tabs {
+  list-style: none;
+  margin: 0px;
+  padding: 0px;
+  height: 90px;
+  width: 100%;
+  background-color: #eee;
+  border-bottom: 10px solid #45489a;
+}
+
+#email .tabs li {
+  display: inline-block;
+  text-align: center;
+  width: 25%;
+  float: none;
+  margin: 0;
+  padding: 0;
+}
+
+#email .tabs a {
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  text-transform: capitalize;
+  letter-spacing: 0.5px;
+  color: #232323;
+  font-size: 19px;
+  line-height: 80px;
+  font-weight: 600;
+  transition: 0.5s;
+}
+
+#email .tabs a:hover {
+  color: #45489a;
+}
+
+
+#email .tabs .active:hover {
+  color: #fff;
+}
+
+#email .tabs .active {
+  background-color: #45489a;
+  color: #fff;
+}
+
+.tabgroup {
+  background-color: #f4f4f4;
+  padding: 20px 30px;
+}
+
+.clearfix:after {
+  content:"";
+  display:table;
+  clear:both;
+}
+
+#email .tabgroup ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+#email .tabgroup ul li {
+  display: inline-block;
+  text-align: left;
+  margin-bottom: 10px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #ddd;
+}
+
+#email .tabgroup ul li:last-child {
+  border-bottom: none;
+  margin-bottom: 0px;
+  padding-bottom: 10px;
+}
+
+#email .tabgroup ul li img {
+  float: left;
+  margin-right: 30px;
+  max-width: 100%;
+  overflow: hidden;
+}
+#email .tabgroup ul li .text-content {
+  display: inline;
+}
+
+#email .item .text-content h4 {
+  padding-top: 7.5px;
+  margin-top: 0px;
+  margin-bottom: 5px;
+  font-size: 21px;
+  font-weight: 600;
+  color: #232323;
+  letter-spacing: 0.5px;
+}
+
+#email .item .text-content span {
+  display: inline-block;
+  font-size: 15px;
+  font-weight: 600;
+  color: #7a7a7a;
+  letter-spacing: 0.5px;
+  margin-bottom: 15px;
+}
+
+#email .item .text-content .accent-button {
+  margin-top: 25px;
+}
+
+
 /* Contact Style */
 
 #contact {
@@ -984,7 +1111,7 @@ img {
 }
 
 #contact-content {
-  padding: 80px 60px;
+  padding: 80px 10px;
 }
 
 #contact input {
@@ -1048,7 +1175,7 @@ img {
 
 .footer {
   background-color: rgba(12,12,12,0.9);
-  height: 80px;
+  height: 10px;
   line-height: 80px;
   display: inline-block;
   text-align: center;
@@ -1056,7 +1183,7 @@ img {
 }
 
 .footer p {
-  margin-bottom: 0px;
+  margin-bottom: 10px;
   font-size: 13px;
   line-height: 80px;
   color: #fff;
@@ -1208,4 +1335,21 @@ img {
     padding-right: 15px;
   }
 
+  #email {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  #email .tabs a {
+    font-size: 13px;
+  }
+
+  #email .tabgroup ul li img {
+    float: none;
+    width: 100%;
+    margin-bottom: 15px;
+  }
+  #email .tabgroup ul li .text-content {
+    display: block;
+  }
 }
